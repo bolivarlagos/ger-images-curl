@@ -21,8 +21,6 @@ int main(void)
         FILE *file;
         CURLcode res;
 
-        curl = curl_easy_init();
-
         char url[URL_LENGTH] =
             "https://raw.githubusercontent.com/"
             "microsoft/Web-Dev-For-Beginners/main/"
